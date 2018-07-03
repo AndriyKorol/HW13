@@ -1,0 +1,59 @@
+
+body {
+    margin: 0;
+    background-color: #fff;
+    font: 300 15px/1 'Arial', sans-serif;
+    text-align: center;
+}
+ul {
+    list-style: none;
+}
+
+h1 {
+    color: #000;
+    letter-spacing: 0.2em;
+}
+
+i {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.fa, .fas {
+    font-weight: 900;
+    color: red;
+
+}
+.users-list {
+    text-align: left;
+    padding: 10px 30px;
+    margin: 20px 0px 0px 20px;
+    max-width: 30%;
+}
+.users-list li {
+    text-transform: uppercase;
+    line-height: 1.5;
+    padding: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.user-info {
+    position: absolute;
+    left: 31%;
+    margin: 5px 0px 20px 0px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    padding: 10px 20px 15px;
+}
+
+td, th {
+    font-size: 15px;
+    padding: 5px;
+}
+
+th {
+    font-weight: bold;
+}
